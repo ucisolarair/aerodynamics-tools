@@ -1,0 +1,15 @@
+This folder contains data collected from the internet about airfoils.
+Each file should follow the csv format:
+
+----------------------------------------------------------------------
+    Xfoil polar. Reynolds number fixed. Mach  number fixed
+    Polar key,xf-s7055-il-100000
+    Airfoil,s7055-il
+    Reynolds number,100000
+    Ncrit,9
+    Mach,0
+    Max Cl/Cd,54.2877
+    Max Cl/Cd alpha,7.75
+    Url,http://airfoiltools.com/polar/csv?polar=xf-s7055-il-100000
+
+    Alpha,Cl,Cd,Cdp,Cm,Top_Xtr,Bot_Xtr
