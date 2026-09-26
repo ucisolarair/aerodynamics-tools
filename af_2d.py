@@ -12,6 +12,16 @@ def _load_polar(file_path):
     return df.dropna(subset=["Alpha", "Cl", "Cd"]).sort_values("Alpha").reset_index(drop=True)
 
 
+def get_polar_data(file_path):
+    """Return the measured alpha, lift, and drag arrays from a polar file."""
+    df = _load_polar(file_path)
+    return {
+        "alpha_deg": df["Alpha"].to_numpy(),
+        "cl": df["Cl"].to_numpy(),
+        "cd": df["Cd"].to_numpy(),
+    }
+
+
 def get_C_l_0(file_path):
     df = _load_polar(file_path)
 
