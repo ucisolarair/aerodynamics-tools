@@ -1,0 +1,19 @@
+PARASITE DRAG BUILD UP DATA 
+
+Mach, Altitude (m), Vinf (m/s), S_ref (m^2)
+0.293861, 0.000000, 100.000000, 1.250000 
+
+Temp (F), Pressure (lbf/ft^2), Density (kg/m^3) 
+59.000000, 2116.216195, 1.224978 
+
+Lam Cf Eqn, Turb Cf Eqn 
+Laminar Blasius, Low Reynolds Number Prandtl Power Law 
+
+Component Name,S_wet (m^2),L_ref (m),t/c or d/l,FF,FF Eqn Type,Re,% Lam,Cf,Q (Interference Factor),f (m^2),Cd,% Total 
+WingGeom,2.567588, 0.249991, 0.136439,1.293671, Hoerner,1711397.264819, 0.000000,0.004193, 1.000000,0.013929, 0.011143, 100.000000 
+
+Excrescences, Type, Input
+
+ , , , , , , , , , Geometry Sub-Total:, 0.013929, 0.011143, 100.000000 
+ , , , , , , , , , Excrescence Sub-Total:, 0.000000, 0.000000, 0.000000 
+ , , , , , , , , , Totals:, 0.013929, 0.011143, 100.000000 
