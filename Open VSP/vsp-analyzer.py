@@ -1,3 +1,10 @@
+"""
+Be warned: you must install the OpenVSP Python package to run this script. See the README in your OpenVSP installation for instructions.
+You must also run this script in the "openvsp" virtual environment, which is created during the OpenVSP python installation.
+
+Only runs on the python version with your OpenVSP installation (most likely 3.13). Good Luck!!
+"""
+
 import csv
 import numpy as np
 from pathlib import Path
